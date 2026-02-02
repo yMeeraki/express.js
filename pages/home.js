@@ -1,3 +1,8 @@
 export default function home() {
-  return `<h1>Home Page: ES</h1>`;
+  return `
+  <div class="home-box">
+    <h1>Welcome</h1>
+    <p>This is the Home Page</p>
+    <a href="/login">Go to Login</a>
+  </div>`;
 }
