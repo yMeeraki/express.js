@@ -4,6 +4,9 @@ import { resolve } from "path";
 const app = express();
 const absolutePath = resolve(`view`); // To get absolute path
 
+const publicPath = resolve("public");
+app.use(express.static(publicPath));
+
 app.get("/", (req, res) => {
   // console.log(__dirname) // Won't work as we are using module
 

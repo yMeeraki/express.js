@@ -1,0 +1,77 @@
+/* Common Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+  text-align: center;
+}
+
+/* Common Box */
+.box {
+  background: white;
+  width: 350px;
+  margin: 140px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+  color: #5f3dc4;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #333;
+}
+
+/* Text */
+p {
+  color: #555;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Buttons & Links */
+button {
+  display: inline-block;
+  padding: 10px 25px;
+  background: #0081ec;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #006fd1;
+}
+
+/* Special 404 number */
+.error {
+  font-size: 60px;
+  color: #5f3dc4;
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #0081ec;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #5f3dc4;
+}
