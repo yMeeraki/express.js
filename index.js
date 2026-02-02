@@ -1,15 +1,16 @@
-const express = require("express");
+// const express = require("express");
+import express from "express";
+import home from "./pages/home.js";
+import { about } from "./pages/about.js";
+
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("<h1>Hello World</h1>");
+  res.send(home());
 });
 
 app.get("/about", (req, res) => {
-  res.send(`<p>Hello World: About</p> 
-  <input type="text">
-  <h1>WOW</h1>
-  `);
+  res.send(about());
 });
 
 app.listen(3200);
