@@ -15,11 +15,12 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server2.js",
+    "dev": "nodemon server3.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "express": "^5.2.1",
+    "morgan": "^1.10.1",
     "nodemon": "^3.1.11"
   }
 }
