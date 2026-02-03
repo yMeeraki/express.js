@@ -15,7 +15,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server1.js",
+    "dev": "nodemon server2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
