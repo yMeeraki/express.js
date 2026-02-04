@@ -15,4 +15,12 @@ app.post("/submit-user", (req, res) => {
   res.render("submitUsers", req.body);
 });
 
+app.get("/users", (req, res) => {
+  const users = [
+    { name: "Yukti", email: "yukti@gmail.com", age: 22 },
+    { name: "Vivek", email: "vivek@gmail.com", age: 24 },
+  ];
+  res.render("users", { users: users });
+});
+
 app.listen(3200);
